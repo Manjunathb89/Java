@@ -1,8 +1,6 @@
-/*Count Number Of Charters present in a string using count variable*/
-
 package interviewPrograms;
 
-public class CountNumberOfChar 
+class To_Count_Number_of_charcters_present_in_a_String 
 {
 	public static void main(String[] args) 
 	{
@@ -14,6 +12,8 @@ public class CountNumberOfChar
 			Count++;		
 		}
 		System.out.println(Count);
+		
+		//2: Using length()
+		System.out.println(Str.length());
 	}
-
 }

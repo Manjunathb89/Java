@@ -8,7 +8,7 @@ class Demo19
 	public static void main(String[] args) 
 	{
 		 print();
-		
+		 
 		//1st way
 		int total =add(10,20);
 		System.out.println("_____________");
