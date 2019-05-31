@@ -18,8 +18,7 @@ public class SeparateZerosFromNonZeros
 	            if(inputArray[i] != 0)
 	            {
 	                //Assigning inputArray[i] to inputArray[counter]
-	 
-	                inputArray[counter] = inputArray[i];
+	 	              inputArray[counter] = inputArray[i];
 	 
 	                //Incrementing the counter by 1
 	 

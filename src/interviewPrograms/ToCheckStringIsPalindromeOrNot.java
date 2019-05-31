@@ -19,6 +19,6 @@ public class ToCheckStringIsPalindromeOrNot
 		else
 		{
 			System.out.println("Given String is not an Palindrome");
-		}
+		}	
 	}
 }

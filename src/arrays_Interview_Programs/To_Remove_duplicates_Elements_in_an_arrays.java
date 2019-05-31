@@ -7,38 +7,25 @@ public class To_Remove_duplicates_Elements_in_an_arrays
 {
 	static void removeDuplicates(int[] arrayWithDuplicates)
     {
-        System.out.println("Array With Duplicates : ");
-         
-        for (int i = 0; i < arrayWithDuplicates.length; i++)
-        {
-            System.out.print(arrayWithDuplicates[i]+"\t");
-        }
-         
+                 
         Set<Integer> set = new LinkedHashSet<Integer>();      //Use HashSet if you don't want insertion order
          
         for (int i = 0; i < arrayWithDuplicates.length; i++) 
-        {
+          {
             set.add(arrayWithDuplicates[i]);
-        }
-         
-        //Converting set into an array
+          }
+             //Converting set into an array
          
         Object[] arrayWithoutDuplicates = set.toArray();
  
         //Printing arrayWithoutDuplicates
-                 
-        System.out.println();
-                 
+                   
         System.out.println("Array Without Duplicates : ");
                  
         for (int i = 0; i < arrayWithoutDuplicates.length; i++)
         {
             System.out.print(arrayWithoutDuplicates[i]+"\t");
-        }
-                 
-        System.out.println();
-                 
-        System.out.println("==============================");
+        }          
     }
      
     public static void main(String[] args) 

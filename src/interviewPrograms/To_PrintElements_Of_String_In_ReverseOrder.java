@@ -1,6 +1,6 @@
 package interviewPrograms;
 
-public class PrintElementsOfStringInReverseOrder 
+public class To_PrintElements_Of_String_In_ReverseOrder 
 {
 	public static void main(String[] args)
 	{

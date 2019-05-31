@@ -1,19 +1,18 @@
 package arrays_Interview_Programs;
-
 import java.util.Scanner;
 
 public class FindGivenElementPresentInArray 
 {
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
 		int[] arr = new int[5];
-		
+
+		for(int i=0;i<5;i++)
+		{
 			Scanner sc = new Scanner(System.in);
-			sc.nextInt();
-			
+			arr[i]=sc.nextInt();
+		}
 			 boolean res = isPresent(arr,4);
-			 
 			 if(res)
 				 System.out.println("present");
 			 else

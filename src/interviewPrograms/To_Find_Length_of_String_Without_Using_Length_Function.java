@@ -1,6 +1,6 @@
 package interviewPrograms;
 
-public class ToFindLengthOfStringWithoutUsingLengthFunction 
+public class To_Find_Length_of_String_Without_Using_Length_Function 
 {
 	public static void main(String[] args)
 	{

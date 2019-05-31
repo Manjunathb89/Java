@@ -19,7 +19,7 @@ public class To_Reverse_Words_Present_In_String
 				s.delete(0, s.length());
 			}
 		
-		System.out.println("---------------------");	
+		System.out.println("-----------------------------");	
 			for(int i=0; i<words.length; i++)
 			{
 				StringBuffer s = new StringBuffer();
@@ -31,5 +31,16 @@ public class To_Reverse_Words_Present_In_String
 				System.out.print(" ");
 				s.delete(0, s.length());
 			} 
+			
+		System.out.println("------------------------------");
+			String Inputstring="I work in Lam Research";
+			String Words[]=Inputstring.split("\\s");
+			String Outputstring = "";
+		
+			for(int i=Words.length-1;i>0;i--)
+			{
+				Outputstring = Outputstring + Words[i]+" ";
+			}
+			System.out.print(Outputstring);
 	}
 }
