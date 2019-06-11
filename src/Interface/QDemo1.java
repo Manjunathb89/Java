@@ -5,10 +5,10 @@ interface QIDemo1
 {
 	void test1();
 	
-	default void test2() //concrete method in interface , on implementing this in classes it will be common method.
+	/*default void test2() //concrete method in interface , on implementing this in classes it will be common method.
 	{
 		System.out.println("test2 implemented commonly in QIDemo1");
-	}
+	}*/
 }
 
 class IA implements QIDemo1
@@ -39,7 +39,7 @@ public class QDemo1
 	{
 		IA ia1=new IA();
 		ia1.test1();
-		ia1.test2();
+		//ia1.test2();
 
 		System.out.println("-----------------------------------------------");
 		

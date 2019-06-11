@@ -1,6 +1,6 @@
 package Interface;
 
-interface IQDemo8
+/*interface IQDemo8
 {
 	default void test()
 	{
@@ -32,4 +32,4 @@ public class QDemo6
 		IF iqf=new IF();
 		iqf.test();
 	}
-}
+}*/

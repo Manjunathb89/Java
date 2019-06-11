@@ -10,10 +10,10 @@ class jhum
 
 interface IJhumki
 {
-	default void test()
-	{
-		System.out.println("Jhumki from  Jhumkipur");
-	}
+	//default void test()
+	//{
+	//	System.out.println("Jhumki from  Jhumkipur");
+	//}
 }
 
 class iI extends jhum implements IJhumki
